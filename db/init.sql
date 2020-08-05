@@ -1,6 +1,18 @@
 CREATE DATABASE citiesData;
 use citiesData;
 
+CREATE TABLE IF NOT EXISTS tblLoginData (
+    `id` int AUTO_INCREMENT,
+    `username` VARCHAR(21) CHARACTER SET utf8,
+    `password` VARCHAR(21) CHARACTER SET utf8,
+    'verified' BINARY(1),
+    PRIMARY KEY (`id`)
+);
+
+INSERT INTO tblLoginData (username, password, verified) VALUES
+    ('admin', 'admin12345', 1),
+    ('not verified', '12345', 0);
+
 CREATE TABLE IF NOT EXISTS tblCitiesImport (
     `id` int AUTO_INCREMENT,
     `fldName` VARCHAR(21) CHARACTER SET utf8,
