@@ -2,7 +2,9 @@
 [![Build Status](https://travis-ci.org/ashili/StatCalculator.svg?branch=master)](https://travis-ci.org/ashili/StatCalculator)
 ##### Project Outline
 
-
+Anis Shili : charting
+Maksim Nizhegorodtsev: API
+Ma
 # Calculator Screenshots
 
 ![pycharm data query](screenshots/calculator.png)
