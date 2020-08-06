@@ -1,18 +1,53 @@
-# Project Description
-This project is a homework assignment to teach how to get Pycharm setup with Docker, Flask, MySQL, and Postman
+## Stats Calculator Project - By Anis Shili and Maksim Nizhegorodtsev
+[![Build Status](https://travis-ci.org/ashili/StatCalculator.svg?branch=master)](https://travis-ci.org/ashili/StatCalculator)
+##### Project Outline
 
-## Assignments
-* [Assignment 4](restIntro-pycharm.pdf)
+Anis Shili : charting
+Maksim Nizhegorodtsev: API
+Ma
+# Calculator Screenshots
 
+![pycharm data query](screenshots/calculator.png)
 
-## Videos
+## Charting technology used :
 
-* [Video 4 - REST API Part 1](https://youtu.be/E1Xk5dk3Abc)  Note this is a general video I use for another class and is about the concept of REST API and is not specific to python.  The 3rd Video of this part is the specific for python
-* [Video 5 - REST API Part 2](https://youtu.be/LGNkFTE3DI8)
-* [Video 6 - Assignment 4 Project Video](https://youtu.be/bfAW4vOdz7Q)
+    Highcharts with javascript
 
-# Useful Links
-* [Flask Homepage and Documentation](https://flask.palletsprojects.com/en/1.1.x/)
-* [JSON Spec Reference](https://www.json.org/json-en.html)
-* [SimpleJSON Reference](https://simplejson.readthedocs.io/en/latest/)
-* [W3 Schools SQL Tutorial and Reference](https://www.w3schools.com/sql/)
+## Calculator Logic
+
+1. Calculator Object:
+	1. Properties
+		1. Result
+	2. Class Methods
+		1. add(self, a, b) -> Calls addition function
+		2. subtract(self, a, b) -> Calls subtraction function
+		3. multiply(self, a, b) -> Calls multiplication function
+		4. divide(self, a, b) -> Calls division function
+		5. square(self, a) -> Calls squared function
+		6. radical(self, a) -> Calls square root function from math object
+		
+		8. mean(self, list) ->
+		9. median(self, list) ->
+		10. mode(self, list) ->
+		11. variance(self, list) ->
+		12. standardDeviation(self, list) ->
+		13. zScore(self, list) ->
+		
+		14. randRange(self, min, max) ->
+		15. randRangeSeed(self, min, max, seed) ->
+		16. randList(self, min, max, seed, listLength) ->
+		17. randListItem(self, list) ->
+		18. randListItemSeed(self, list, seed) ->
+		19. randListItemMultiple(self, list, selectAmount) ->
+		20. randListItemSeedMultiple(self, list, seed, selectAmount) ->
+		
+		21. simpleRandomSample(self, list, selectAmount) ->
+		22. confidenceInterval(self, list) ->
+		23. marginOfError(self, list) ->
+		24. cochranSampleSize(self, marginOfError, estimatedProportion) ->
+		25. sampleSize(self, intervalMin, intervalMax) ->
+		
+	3. Functions
+		1. checkDivideZero
+		2. checkListEmpty
+
